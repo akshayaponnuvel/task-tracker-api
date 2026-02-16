@@ -54,7 +54,7 @@ npm install
 Create `.env` file in root:
 
 ```
-PORT=5000
+PORT=5001
 MONGO_URI=mongodb://localhost:27017/taskdb
 JWT_SECRET=your_secret_key
 REDIS_URL=redis://localhost:6379
@@ -173,7 +173,7 @@ Cache invalidates automatically when tasks change.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 * Jest + Supertest
 * Integration testing with MongoDB Memory Server
@@ -182,7 +182,7 @@ Cache invalidates automatically when tasks change.
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Swagger API documentation
 * Role-based access control
